@@ -22,7 +22,7 @@ def evaluate_guess(guess, word):
     
     return str + "\033[0m"
 
-def wordle(guesses, answers):
+def game(guesses, answers):
     print("Welcome to Wordle! Get 6 chances to guess a 5-letter word.")
     secret_word = random.choice(answers).lower()
 
@@ -53,4 +53,4 @@ answers_dictionary = "answers.txt"
 guesses = load_dictionary(guesses_dictionary)
 answers = load_dictionary(answers_dictionary)
 
-wordle(guesses, answers)
+game(guesses, answers)
