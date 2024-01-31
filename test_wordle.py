@@ -7,3 +7,9 @@ def is_valid_guess(x):
 
 def test_valid_guess():
     assert is_valid_guess(3) == 5
+
+def evaluate_guess(guess, word):
+    return str
+
+def test_evaluate_guess():
+    assert evaluate_guess('guess', 'word') == 5
