@@ -13,3 +13,7 @@ def evaluate_guess(guess, word):
 
 def test_evaluate_guess():
     assert evaluate_guess('guess', 'word') == 5
+
+def load_dictionary():
+    return 7
+
